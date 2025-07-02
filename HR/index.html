@@ -611,7 +611,7 @@
     </div>
 
     <script>
-        const API_URL = 'http://localhost:3000/api/appraisals';
+        const API_URL = 'http://3.93.239.238:3079/api/appraisals';
 
         function showNotification(message, isError = false) {
             const existingNotification = document.querySelector('.notification');
@@ -633,7 +633,7 @@
                 setTimeout(() => {
                     notification.remove();
                 }, 300);
-            }, 3000);
+            }, 3079);
         }
 
         async function fetchAppraisals() {
